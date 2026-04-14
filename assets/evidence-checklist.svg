@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+  <rect width="1200" height="820" fill="#f7f2e8"/>
+  <rect x="40" y="40" width="1120" height="740" rx="28" fill="#fffdf8" stroke="#2a2a2a" stroke-width="4"/>
+  <text x="80" y="110" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="42" font-weight="700" fill="#1f1f1f">消费维权证据清单</text>
+  <text x="80" y="150" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="20" fill="#5a5a5a">先保留证据，再协商，再投诉。截图尽量保留时间、订单号、商家名称和金额。</text>
+
+  <g transform="translate(80 200)">
+    <rect width="500" height="150" rx="20" fill="#ffe7d1" stroke="#c96d2d" stroke-width="3"/>
+    <text x="28" y="42" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#8c3b00">1. 交易信息</text>
+    <text x="28" y="82" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22" fill="#2d2d2d">□ 订单号 / 小票 / 合同</text>
+    <text x="28" y="112" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22" fill="#2d2d2d">□ 支付记录 / 金额 / 时间</text>
+    <text x="28" y="142" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22" fill="#2d2d2d">□ 商家或平台全称</text>
+  </g>
+
+  <g transform="translate(620 200)">
+    <rect width="500" height="150" rx="20" fill="#dff2e1" stroke="#3f8f50" stroke-width="3"/>
+    <text x="28" y="42" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#1f5c2b">2. 宣传承诺</text>
+    <text x="28" y="82" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22" fill="#2d2d2d">□ 商品页 / 房型页 / 菜单页截图</text>
+    <text x="28" y="112" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22" fill="#2d2d2d">□ 广告语 / 直播录屏 / 活动页</text>
+    <text x="28" y="142" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22" fill="#2d2d2d">□ 退款规则 / 服务条款</text>
+  </g>
+
+  <g transform="translate(80 390)">
+    <rect width="500" height="150" rx="20" fill="#e4ecff" stroke="#4565b7" stroke-width="3"/>
+    <text x="28" y="42" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#26418a">3. 问题本身</text>
+    <text x="28" y="82" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22" fill="#2d2d2d">□ 实物照片 / 视频 / 到店现场图</text>
+    <text x="28" y="112" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22" fill="#2d2d2d">□ 包装、批次、有效期、损坏细节</text>
+    <text x="28" y="142" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22" fill="#2d2d2d">□ 医疗材料或检测材料（如有）</text>
+  </g>
+
+  <g transform="translate(620 390)">
+    <rect width="500" height="150" rx="20" fill="#f4e2ff" stroke="#8e57b5" stroke-width="3"/>
+    <text x="28" y="42" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#64308b">4. 沟通记录</text>
+    <text x="28" y="82" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22" fill="#2d2d2d">□ 聊天截图 / 客服工单号</text>
+    <text x="28" y="112" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22" fill="#2d2d2d">□ 通话录音 / 时间 / 对方工号</text>
+    <text x="28" y="142" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22" fill="#2d2d2d">□ 商家处理结果截图</text>
+  </g>
+
+  <g transform="translate(80 580)">
+    <rect width="1040" height="120" rx="20" fill="#1f1f1f"/>
+    <text x="34" y="44" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#ffffff">投诉前 30 秒自检</text>
+    <text x="34" y="80" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22" fill="#f3f3f3">□ 我能说明“宣传是什么、实际是什么、证据是什么、我的诉求是什么”</text>
+    <text x="34" y="108" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22" fill="#f3f3f3">□ 我已经备份关键截图，原物或现场证据没有提前丢弃</text>
+  </g>
+</svg>

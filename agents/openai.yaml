@@ -1,0 +1,10 @@
+interface:
+  display_name: "Consumer Rights"
+  short_description: "Evidence, complaint routing, and draft writing for China consumer disputes"
+  icon_small: "./assets/evidence-checklist.svg"
+  icon_large: "./assets/evidence-checklist.svg"
+  brand_color: "#C96D2D"
+  default_prompt: "Use $consumer-rights-protection to turn my dispute into an evidence checklist, complaint plan, and paste-ready complaint draft."
+
+policy:
+  allow_implicit_invocation: true
