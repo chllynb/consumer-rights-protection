@@ -18,7 +18,7 @@ Use this skill when the user needs help with:
 - Product quality defects, counterfeit goods, damaged goods, or missing goods
 - Food safety issues, foreign objects, spoilage, illness after eating
 - Hidden fees, price fraud, or bait-and-switch pricing
-- Hotel, travel, or platform booking disputes
+- Hotel, travel, or platform booking disputes, including cancellation-cutoff rules such as "free cancellation before 18:00, non-refundable after 18:00"
 - Prepaid card, membership, training-course, or beauty-gym closure disputes
 - A refund, replacement, compensation, or a formal complaint draft
 
@@ -106,7 +106,7 @@ Read only what is needed:
 - `references/complaint-channels.md`
   Use for official and public complaint-channel selection.
 - `scenarios/hotel-booking.md`
-  Use for hotel and OTA booking disputes.
+  Use for hotel and OTA booking disputes, including same-day 18:00 cutoff refund disputes.
 - `scenarios/online-shopping.md`
   Use for e-commerce quality and refund disputes.
 - `scenarios/food-safety.md`

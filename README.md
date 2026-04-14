@@ -1,10 +1,11 @@
 # Consumer Rights Protection Skill
 
-一个面向中国消费纠纷场景的通用维权技能包，适用于把真实消费经历沉淀成可复用的 AI Skill，让其他用户在遇到类似问题时，快速获得取证建议、投诉路径和可直接粘贴的投诉文案。
+一个面向中国消费纠纷场景的通用 AI 技能包，帮助用户把真实遭遇快速整理成取证清单、协商话术、投诉路径和可直接提交的维权文案。
 
 ## 适用场景
 
 - 酒店、民宿、OTA 预订纠纷
+- 酒店“18:00 前可退、18:00 后不可退”等退改截止争议
 - 网购商品质量、货不对板、售后拒绝
 - 餐饮食品安全、异物、变质、食后不适
 - 预付卡、会员卡、培训课、健身美容闭店跑路
@@ -14,10 +15,11 @@
 
 - 帮用户判断纠纷类型与优先维权路线
 - 提供证据收集清单与取证重点
-- 生成商家/平台协商话术
+- 生成商家或平台协商话术
 - 生成适合 12315 / 12345 的投诉草稿
 - 提供简明法律依据与风险提醒
 - 按场景拆分专项模块，避免主技能过长
+- 覆盖酒店 18:00 截止退改条款的专项维权策略
 
 ## 仓库结构
 
@@ -40,7 +42,7 @@ consumer-rights-protection/
 │   ├── online-shopping.md
 │   └── prepaid-card.md
 └── dist/
-    └── consumer-rights-protection-v1.0.0.zip
+    └── consumer-rights-protection-v1.0.1.zip
 ```
 
 ## 文件说明
@@ -48,13 +50,13 @@ consumer-rights-protection/
 - `SKILL.md`
   技能入口文件，定义触发条件、工作流、输出格式和资源导航。
 - `references/legal-basis.md`
-  常用维权法律依据与表述模板。
+  常用维权法律依据、投诉标签和话术模板。
 - `references/complaint-channels.md`
   维权投诉渠道选择建议。
 - `scenarios/*.md`
-  高频消费纠纷场景模板。
+  高频消费纠纷专项模块。
 - `agents/openai.yaml`
-  面向支持技能 UI 的元数据。
+  技能 UI 元数据。
 - `assets/evidence-checklist.svg`
   可视化证据清单素材。
 
@@ -62,12 +64,12 @@ consumer-rights-protection/
 
 ### 方式 1：直接分发压缩包
 
-将 `dist/consumer-rights-protection-v1.0.0.zip` 直接发给其他人即可。对方解压后，保持目录结构不变即可使用或导入到支持 Skill 的工具中。
+将 `dist/consumer-rights-protection-v1.0.1.zip` 直接发给其他人即可。对方解压后，保持目录结构不变即可使用或导入到支持 Skill 的工具中。
 
 ### 方式 2：作为 GitHub 仓库发布
 
 1. 将整个目录上传到 GitHub 新仓库。
-2. 在 Releases 中上传 `dist/consumer-rights-protection-v1.0.0.zip` 作为发布附件。
+2. 在 Releases 中上传 `dist/consumer-rights-protection-v1.0.1.zip` 作为发布附件。
 3. 在仓库首页保留本 `README.md`，方便其他人查看说明与安装方式。
 
 ### 方式 3：本地作为技能目录使用
@@ -76,11 +78,18 @@ consumer-rights-protection/
 
 ## 使用示例
 
-### 示例 1：酒店订房纠纷
+### 示例 1：酒店预订纠纷
 
 ```text
 请用 $consumer-rights-protection 帮我整理一个酒店维权投诉。
 我在平台上订了双人间，到店后酒店说只能住 1 人，平台还拒绝退款。
+```
+
+### 示例 1A：18:00 退改截止争议
+
+```text
+请用 $consumer-rights-protection 帮我整理酒店维权方案。
+平台写着当天 18:00 前可退、18:00 后不可退，但我是 19:00 才发现房型关键信息和页面描述不一致，最终也没有入住。
 ```
 
 ### 示例 2：网购商品问题
@@ -99,7 +108,7 @@ consumer-rights-protection/
 
 ## 发布建议
 
-- 对外发布前，建议把你自己的典型案例继续补充到 `scenarios/` 中。
+- 对外发布前，建议继续把典型案例补充到 `scenarios/` 中。
 - 若需要更强的地域适配，可增加 `references/local-channels.md` 存放各地市场监管局、12345 小程序入口等信息。
 - 若后续经常迭代，可按版本号更新 `VERSION` 并重新生成 `dist/` 压缩包。
 

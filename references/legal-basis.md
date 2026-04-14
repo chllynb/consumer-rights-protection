@@ -32,6 +32,7 @@ Use when the merchant relies on pre-set clauses such as:
 
 - "Special-price items are non-refundable"
 - "No cancellation after booking"
+- "Free cancellation before 18:00, non-refundable after 18:00"
 - "Final interpretation belongs to the store"
 - "No compensation under any circumstance"
 
@@ -44,6 +45,27 @@ Primary rules commonly cited:
 
 - Consumer Rights Protection Law, Article 26
 - Civil Code, Article 497
+
+### Hotel cancellation cutoff clauses
+
+Use when a hotel, OTA, or homestay platform relies on a clause such as:
+
+- "Free cancellation before 18:00 on check-in day"
+- "Non-refundable after 18:00"
+- "Holiday orders cannot be cancelled once confirmed"
+
+Key points:
+
+- A fixed cutoff time is usually a business rule, not a statutory line created by law.
+- The clause is stronger when the page clearly disclosed it before payment and the booking information itself was accurate.
+- The clause is weaker when the platform or hotel omitted a material condition, used misleading room information, changed availability, or otherwise caused the booking purpose to fail.
+- If the merchant's own listing problem triggered the dispute, frame the case around misleading information and unfair reliance on a standard term.
+
+Practical argument:
+
+- The consumer is not merely changing their mind after the cutoff.
+- The transaction could not be performed as a normal consumer would reasonably understand from the listing.
+- In that situation, the merchant or platform should not mechanically use the 18:00 cutoff to avoid refund responsibility.
 
 ### Product or service defects
 
@@ -130,16 +152,21 @@ Use one or two concise labels in drafts:
 - `拒绝履行退款或退换义务`
 - `食品安全风险`
 - `预付费后无法继续履约`
+- `机械适用 18:00 退改截止规则`
 
 ## Complaint Sentence Templates
 
 ### For misleading advertising
 
-`商家在交易前以页面/宣传内容明确展示[承诺内容]，交易后实际情况却为[实际情况]，足以影响普通消费者判断，涉嫌构成虚假或引人误解的宣传。`
+`商家在交易前以页面或宣传内容明确展示[承诺内容]，交易后实际情况却为[实际情况]，足以影响普通消费者判断，涉嫌构成虚假或引人误解的宣传。`
 
 ### For unfair terms
 
-`商家援引“[条款内容]”拒绝退款/取消/赔付，但该条款系单方预设，实质上减轻自身责任、限制消费者主要权利，存在格式条款不公平问题。`
+`商家援引“[条款内容]”拒绝退款、取消或赔付，但该条款系单方预设，实质上减轻自身责任、限制消费者主要权利，存在格式条款不公平问题。`
+
+### For 18:00 hotel cutoff disputes
+
+`本案并非消费者在知悉真实条件后单纯逾期反悔，而是因页面对[房型/入住人数/限制条件]展示不准确或披露不充分，导致订单目的无法实现。商家或平台机械适用“18:00 后不可退”规则，存在不当限制消费者权利的问题。`
 
 ### For fraud claim with caution
 
